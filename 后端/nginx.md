@@ -85,3 +85,7 @@
         "form-action 'self'"
         限制跳转，感觉意义不大
         ```
+
+- 添加 “nosniff”的 X-Content-Type-Options
+
+    有助于防止基于 MIME 类型混淆的攻击
